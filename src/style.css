@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.custom__btn {
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 6px 25px;
+  margin-right: 10px;
+}
+
+.program__section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.product__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.product__card img {
+  max-width: 250px;
+}

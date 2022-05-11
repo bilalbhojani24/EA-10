@@ -1,0 +1,37 @@
+Concepts :-
+
+Components - Types (Functional and Class)
+JSX 
+props 
+styles
+
+logo url = https://s3.ap-south-1.amazonaws.com/www.prepbytes.com/navbar/logoPrepBytes.svg
+
+What is component?
+- Building blocks of react
+- Reusable piece of code which consist JSX (UI) and Javascript as a business logic
+- Types => Functional component (>16.8) | Class components (Till 16.8) 
+
+Reasons Functionals components=>
+1. Simpler syntax
+2. Easy to understand, implement and learn
+3. Capable to make an Facebook like application
+
+JSX - Javascript extensible langugage
+1. Your JSX should return one parent element only. (cleared)
+2. All tags in JSX should be closed. <img src=""> = x | <img src="" /> (cleared)
+3. class/for => JSX : className / htmlFor. (cleared)
+4. html attributes => camelCase (onClick, className, onMouseOver, etc) (Will be coevered in event listener lecture)
+5. Inline styles should be in object. (cleared)
+
+PROPS (Properties) -
+1. To pass data(state, JS variable, JS function, array, objects anything) from parent component to child component. 
+2. Name from passing component to accepting should be exactly same else it will throw error.
+
+Styles =>
+External and Inline
+Internal = does not exist in react js
+
+Interview:-
+1. Difference between normals functions and arrow functions => this keyword
+2. Write polyfill(implementation of whatever concept in JS) of map function ? (advance)
