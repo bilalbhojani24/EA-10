@@ -1,0 +1,23 @@
+1. State (useState Hook) - Cleared
+2. Virtual DOM - cleared
+3. Event Listener - Cleared 
+4. Conditional rendering (ternary & short circuit) - cleared
+5. React Fragments - cleared
+
+
+state :-
+1. State are not read only - you can update the state value
+
+virtual DOM :- 
+1. Virtual DOM is an imgination/imaginary implementation of Real DOM. 
+2. It will re-paint only the parts of DOM which are assiocated with the state update.
+3. Whenever the state is updated virtual DOM will be updated and reflect the real-time updation in the DOM (UI).
+4. Imaginary : We have 2 layers (original and temporary). compare
+
+Diffing aligthmn/reconciliation algorithm.
+
+Pavan :-
+Og Adidas=> temp layer
+Dup Adidas=> temp layer
+
+Adidas Shoeroom (og layer) => Og Adidas DOM

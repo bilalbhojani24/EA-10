@@ -1,0 +1,19 @@
+.color__container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color__container button {
+  background-color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+  padding: 7px 20px;
+}
+
+div {
+  height: 100px;
+  background-color: red;
+}
